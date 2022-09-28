@@ -86,27 +86,27 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   /* General Styles */
-   html {
-     font-size: 16px;
-   }
+/* General Styles */
+html {
+  font-size: 16px;
+}
 
-   body {
-     font-family: 'Open Sans', sans-serif;
-     font-size: 1em;
-     text-align: left;
-     color: black;
-   }
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  color: black;
+}
 
-   ul,
-   ol {
-     list-style-type: none;
-   }
+ul,
+ol {
+  list-style-type: none;
+}
 
-   a {
-     color: #e2e3ed;
-     text-decoration: none;
-   }
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
 
 
 h2 {
@@ -133,10 +133,11 @@ address {
 }
 
 .content-wrapper {
-     width: 90%;
-     margin: 0;}
+  width: 90%;
+  margin: 0;
+}
 
-   img {
+img {
   width: 100%;
 }
 
@@ -211,15 +212,16 @@ header nav ul li {
   justify-content: center;
   align-items: center;
 
-    background-color: #e7eaf6;
-    border-radius: 30px;
-    color: #113f67;
-    padding: 3px;
+  background-color: #e7eaf6;
+  border-radius: 30px;
+  color: #113f67;
+  padding: 3px;
 
 
 }
+
 .contact-link {
-    color: #113f67;
+  color: #113f67;
 }
 
 footer {
@@ -274,11 +276,6 @@ footer .copyright {
 
 
 /* ------------- Mobile Styles - Homepage ----------- */
-/*
-.transparent-bkg {
-background-color:rgba(0, 0, 0, 0.7);
-}
-*/
 
 .hero-area {
   display: flex;
@@ -288,9 +285,6 @@ background-color:rgba(0, 0, 0, 0.7);
   min-height: 300px;
   background-color: #38598b;
   width: 100%;
-
-  /*background: url('../img/Title.jpg') center no-repeat #333;
-  background-size: cover;*/
 }
 
 .hero-area h1 {
@@ -312,19 +306,12 @@ background-color:rgba(0, 0, 0, 0.7);
   font-size: 1.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
-    margin-top: 20px;
+  margin-top: 20px;
 
 }
-/*
-.top-element{
-  height: 15%;
-}
-.bottom-element{
-  align-items: baseline;
-}
-*/
 
-section  {
+
+section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -333,7 +320,7 @@ section  {
 
 /* ------------- Mobile Styles - Projects ----------- */
 
-.project-area{
+.project-area {
   background-color: #FFFFFF;
 
 }
@@ -345,6 +332,7 @@ section  {
   flex-flow: row wrap;
   width: 100%;
 }
+
 .project-container {
   display: flex;
   justify-content: center;
@@ -370,35 +358,6 @@ section  {
   width: 45%;
 
 }
-/*
-
-.project-img {
-  width: 95%;
-  padding: 20px;
-  background-color: black;
-}
-
-.project-img {
-  width: 75%;
-}
-
-*/
-/*
-code for a red link button
-
-a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
- a:hover, a:active {
-  background-color: red;
-}*/
-
 
 
 
@@ -416,7 +375,8 @@ a:link, a:visited {
   text-align: center;
   flex-flow: column wrap;
 }
-.skill-title{
+
+.skill-title {
   margin-bottom: 0;
 }
 
@@ -428,14 +388,15 @@ a:link, a:visited {
   flex-flow: row wrap;
   text-transform: uppercase;
 }
+
 .dev-skill {
   background-color: #38598b;
   color: #e7eaf6;
 
   padding: 20px 0;
   margin: 15px 15px;
-width: 45%;
-font-size: 1.125rem;
+  width: 45%;
+  font-size: 1.125rem;
 }
 
 /* ------------- Mobile Styles - EXPERIENCE ----------- */
@@ -448,10 +409,11 @@ font-size: 1.125rem;
   flex-flow: column wrap;
 }
 
-.experience-section{
+.experience-section {
   background-color: #a2a8d3;
 }
-.exp-title{
+
+.exp-title {
   margin-bottom: 0;
 }
 
@@ -463,7 +425,7 @@ font-size: 1.125rem;
   margin: 10px;
 }
 
-.work-img{
+.work-img {
   width: 200px;
   margin: 5px;
 }
@@ -476,7 +438,7 @@ font-size: 1.125rem;
   justify-content: center;
   text-align: center;
   flex-flow: column wrap;
-  background-color:  #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .about-content {
@@ -490,7 +452,7 @@ font-size: 1.125rem;
 }
 
 .resume-link {
-color: #38598b;
+  color: #38598b;
 }
 
 
@@ -585,65 +547,50 @@ color: #38598b;
    Modify as content requires.
    ========================================================================== */
 
-   @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
-    .hero-area {
+  .hero-area {
 
-      min-height: 250px;
-  
-    }
-     /*Tablet styles here*/
-     /* General styles */
-     /*.content-wrapper {
+    min-height: 250px;
+
+  }
+
+  /*Tablet styles here*/
+  /* General styles */
+  /*.content-wrapper {
        max-width: 640px;
        margin: 100px 0;
      }*/
 
-     .project-area {
-       display: flex;
-       justify-content: center;
-       text-align: center;
-       flex-flow: row wrap;
-     }
+  .project-area {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+  }
 
-     .project-wrapper {
-     /*     display: flex;
+  .project-wrapper {
+    /*     display: flex;
        justify-content: center;
        align-items: center;
        text-align: center;*/
-       width: 40%;
+    width: 40%;
 
-      /* margin-bottom: 20px;
+    /* margin-bottom: 20px;
        padding: 20px;
        background-color: #a2a8d3;*/
 
-     }
-     .project-container {
-       display: flex;
-       width: 100%;
-      justify-content: space-evenly;
-       text-align: center;
-       flex-flow: row wrap;
-     }
+  }
 
- /*
-     .skill-container {
-       width: 100%;
-         justify-content: space-evenly;
-       text-align: center;
-       flex-flow: row wrap;
-       text-transform: uppercase;
-     }
-     .dev-skill {
-       background-color: #38598b;
-       color: #e7eaf6;
+  .project-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-flow: row wrap;
+  }
 
-       padding: 20px 0;
-       margin: 15px 15px;
-     width: 45%;
-     font-size: 1.125rem;
-     }
-     */
+
 
 }
 
@@ -661,35 +608,36 @@ color: #38598b;
 }
  */
 
- @media only screen and (min-width: 1200px) {
-   header .content-wrapper {
-     display: flex;
-         justify-content: flex-end;
-   }
-   header nav {
-     display: flex;
-     justify-content: flex-end;
+@media only screen and (min-width: 1200px) {
+  header .content-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: flex-end;
     width: 45%;
-   }
+  }
 
-    /* ------------- Desktop Styles - Projects ----------- */
-
-
-
-   /* ------------- Desktop Styles - ABOUT ----------- */
+  /* ------------- Desktop Styles - Projects ----------- */
 
 
-.about-content {
 
-  padding: 20px 0 20px 0;
+  /* ------------- Desktop Styles - ABOUT ----------- */
+
+
+  .about-content {
+
+    padding: 20px 0 20px 0;
+  }
+
+  .self-img {
+    width: 10%;
+    border-radius: 2000px;
+  }
+
 }
-
-.self-img {
-  width: 10%;
-  border-radius: 2000px;
-}
-
- }
 
 /* ==========================================================================
    Print styles.
@@ -698,6 +646,7 @@ color: #38598b;
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
