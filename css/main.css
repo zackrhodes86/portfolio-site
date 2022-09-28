@@ -446,6 +446,16 @@ section {
   padding: 20px 0 20px 0;
 }
 
+.about-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-resume {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .self-img {
   width: 25%;
   border-radius: 2000px;
